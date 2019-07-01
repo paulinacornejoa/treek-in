@@ -1,0 +1,50 @@
+
+//Primary button - INICIAR SESIÓN
+
+.button_login {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: $open;
+  color: $black;
+  font-size: $medium;
+  background: $white;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  text-decoration: none;
+}
+
+//Secondary button - REGISTRATE
+.button_signup {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: $open;
+  color: $white;
+  font-size: $medium;
+  background: $ball-blue;
+  padding: 10px 20px 10px 20px;
+  border: solid $silver 0px;
+  text-decoration: none;
+
+}
+
+//Hover state
+
+.button_signup:hover {
+  border: 0px;
+  background-color: $middle-blue;
+  color: $white;
+}
+
+//Focus state
+
+.button_signup:focus {
+  border: 0px;
+  background-color: $silver;
+  color: $white;
+}
+
+.button_login, .button_signup {
+  margin-top: 10px;
+}

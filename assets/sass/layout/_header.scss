@@ -1,0 +1,47 @@
+
+header {
+  top: 30px;
+  background-color: #fff;
+}
+
+.navegation {
+  text-align: right;
+  max-width: 100%;
+  height: 75px;
+
+  &__logo {
+    display: flex;
+    padding-left: 50px;
+
+      &__logo-t {
+        background-color: $white;
+        width: 26px;
+        height: 35px;
+      }
+      &__black-box {
+        background-color: $black;
+        position: absolute;
+        top: 8px;
+        left: 4px;
+        width: 31px;
+        height: 10px;
+      }
+      &__black-box1 {
+        background-color: $black;
+        position: absolute;
+        top: 8px;
+        left: 15px;
+        width: 10px;
+        height: 32px;
+      }
+    }
+  &__item {
+
+    ul li {
+      display: inline-block;
+      padding-left: 20px;
+      font-family: $open;
+    }
+
+  }
+}

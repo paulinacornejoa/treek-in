@@ -1,0 +1,38 @@
+.principal-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0%;
+  height: 855px;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+
+  &__description{
+    padding-left: 140px;
+    width: 38%;
+    line-height: 25px;
+    padding-top: 15px;
+  }
+}
+
+.caracteristicas {
+  height: 300px;
+
+  &__text {
+   padding-top: 80px;
+  }
+    &-description{
+      width: 60%;
+      line-height: 25px;
+      padding-top: 15px;
+    }
+}
+
+.prices {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0%;
+  height: 700px;
+  background-image: url(../img/bg-price.png);
+  background-repeat: no-repeat;  
+
+}
