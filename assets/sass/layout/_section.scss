@@ -128,6 +128,26 @@
 
     }
 
+    .prices {
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: 100%;
+      width: 400px;
+      height: 800px;
+      background-image: url(../img/bg-price.png);
+      background-repeat: no-repeat;
+      padding-top: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .box1, .box2 {
+      background-color: $white;
+      width: 300px;
+    }
+
+
 
 
 }
