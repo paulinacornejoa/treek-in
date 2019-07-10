@@ -19,6 +19,7 @@ $lavender-gray:#C7C8CC;
 $raising-black: #221D23;
 $nickel: #726F73;
 $silver: #AEACAF;
+$black: #000000;
 
 
 //Font Family
@@ -41,3 +42,11 @@ $large: 20px;
 $medium: 16px;
 $small: 14px;
 $x-small: 12px;
+
+//Breakpoints
+$viewport-small:375px;
+$viewport-medium:768px;
+$viewport-large:1200px;
+
+// Numbers of column
+$number-columns:12;

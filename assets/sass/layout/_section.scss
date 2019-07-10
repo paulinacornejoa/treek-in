@@ -1,38 +1,133 @@
-.principal-section {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 0%;
-  height: 855px;
-  background-image: url(../img/bg-hero.png);
-  background-repeat: no-repeat;
+@media (min-width: $viewport-large){
 
-  &__description{
-    padding-left: 140px;
-    width: 38%;
-    line-height: 25px;
-    padding-top: 15px;
+  .background-box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    height: 855px;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+
   }
-}
+  .principal-section {
 
-.caracteristicas {
-  height: 300px;
+    &__text {
+      padding-top: 40px;
+    }
 
-  &__text {
-   padding-top: 80px;
-  }
-    &-description{
-      width: 60%;
+    &__description{
       line-height: 25px;
       padding-top: 15px;
     }
+  }
+
+  .caracteristicas {
+    height: 300px;
+    }
+
+  h2 {
+      padding-top: 90px;
+    }
+
+    .caracteristicas__grafico {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+  }
+
+  .caracteristicas__text {
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+
+  .prices {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
+    height: 800px;
+    background-image: url(../img/bg-price.png);
+    background-repeat: no-repeat;
+  }
+  .prices__box{
+    padding-top: 30px;
+    padding-top: 200px;
+
+  }
+  .prices_text{
+    color: $white;
+    text-align: center;
+
+  }
+  .container {
+    margin-top: 290px;
+  }
+
+  .card-subtitle {
+    text-align: left;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+  }
+  .card {
+
+
+    &:hover {
+      box-shadow: 1px 8px 12px #5b5e6a;
+      transition-property: all;
+    }
+  }
 }
 
-.prices {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 0%;
-  height: 700px;
-  background-image: url(../img/bg-price.png);
-  background-repeat: no-repeat;  
+@media (min-width: $viewport-small){
+
+  .background-box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 100%;
+    width: 390px;
+    height: 377px;
+    object-fit: cover;
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+  }
+  .principal-section__text {
+    padding-top: 40px;
+    padding-left: 26px;
+  }
+
+  .caracteristicas {
+    height: 800px;
+    .row {
+      display: flex;
+    }
+  }
+
+  h2 {
+    padding-top: 90px;
+    }
+
+    .caracteristicas__grafico {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 60px;
+    }
+
+    .caracteristicas__text {
+      padding-top: 90px;
+      display: flex;
+      flex-wrap: wrap;
+
+      h3 {
+        font-size: $x-large;
+      }
+
+    }
+
+
 
 }

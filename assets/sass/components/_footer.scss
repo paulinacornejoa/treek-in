@@ -1,0 +1,12 @@
+.footer-items {
+  display: flex;
+  padding-left: 9px;
+  padding-top: 35px;
+  color: $white;
+
+  ul li {
+    display: inline-block;
+    padding-left: 20px;
+    font-family: $open;
+  }
+}

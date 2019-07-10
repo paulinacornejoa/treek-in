@@ -1,0 +1,8 @@
+.container {
+
+  .row {
+    display: grid;
+    
+    grid-template-columns: repeat($number-columns,1fr) ;
+  }
+}

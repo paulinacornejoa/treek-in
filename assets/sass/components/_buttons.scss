@@ -1,4 +1,3 @@
-
 //Primary button - INICIAR SESIÓN
 
 .button_login {
@@ -46,5 +45,59 @@
 }
 
 .button_login, .button_signup {
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+// Box Button - OBTÉN GRATIS
+.button_getfree {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  width: 100%;
+  font-family: $open;
+  color: $white;
+  font-size: $large;
+  background: $ball-blue;
+  padding: 12px 20px 12px 20px;
+  border: solid $silver 0px;
+  text-decoration: none;
+}
+//Hover state
+
+.button_getfree:hover {
+  border: 0px;
+  background-color: $middle-blue;
+  color: $white;
+}
+
+// Box Button - OBTÉN PREMIUM
+
+.button_getpremium {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  width: 100%;
+  font-family: $open;
+  color: $white;
+  font-size: $large;
+  background: $ball-blue;
+  padding: 12px 20px 12px 20px;
+  border: solid $silver 0px;
+  text-decoration: none;
+}
+
+//Hover state
+
+.button_getpremium:hover {
+  border: 0px;
+  background-color: $middle-blue;
+  color: $white;
+ }
+
+
+@media (min-width: $viewport-small){
+
+  .button_login,.button_signup{
+    display: none;
+  }
 }

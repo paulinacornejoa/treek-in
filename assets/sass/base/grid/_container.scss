@@ -1,0 +1,15 @@
+@media (min-width: $viewport-small) {
+  .container {
+    width: 340px;
+  }
+}
+@media (min-width: $viewport-medium) {
+  .container {
+    width: 740px;
+  }
+}
+@media (min-width: $viewport-large) {
+  .container {
+    width: 1150px;
+  }
+}
