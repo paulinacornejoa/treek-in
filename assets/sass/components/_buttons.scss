@@ -95,7 +95,7 @@
  }
 
 
-@media (min-width: $viewport-small){
+@media (max-width: 375px){
 
   .button_login,.button_signup{
     display: none;

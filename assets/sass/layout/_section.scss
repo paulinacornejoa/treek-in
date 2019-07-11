@@ -7,7 +7,7 @@
     height: 857px;
     background-size: 100%;
     object-fit: cover;
-    background-image: url(../img/bg-hero.png);
+    background-image: url(../images/bg-hero.png);
     background-repeat: no-repeat;
   }
 
@@ -27,9 +27,13 @@
   }
 
   .navegation {
-
-
+    &__button {
+      padding-top: 30px;
+      text-align: right;
+      right: 70px;
+    }
   }
+
   .navegation__logo {
 
     ul {
@@ -70,7 +74,7 @@
     background-position-x: 100%;
     width: 400px;
     height: 800px;
-    background-image: url(../img/bg-price.png);
+    background-image: url(../images/bg-price.png);
     background-repeat: no-repeat;
     padding-top: 200px;
     display: flex;
@@ -102,6 +106,19 @@
   }
 }
 
+@media (min-width: 768px){
+
+  .navegation__logo--item {
+    display: inline-block;
+    width: 75vw;
+    text-decoration: none;
+  }
+  h1 {
+    padding-top: 42px;
+  }
+}
+
+
 @media (max-width: 375px){
 
   .background-box {
@@ -110,16 +127,19 @@
     background-position-x: 100%;
     height: 320px;
     object-fit: cover;
-    background-image: url(../img/bg-hero.png);
+    background-image: url(../images/bg-hero.png);
     background-repeat: no-repeat;
   }
   .principal-section__text {
     padding-top: 40px;
     padding-left: 26px;
   }
-
+  .caracteristicas__text--size{
+    font-size: $medium;
+  }
   .caracteristicas {
     height: 800px;
+
 
     .row {
       display: flex;
@@ -143,8 +163,10 @@
       h3 {
         font-size: $x-large;
       }
+
     }
   }
+
 
   .prices {
 
@@ -153,7 +175,7 @@
     background-position-x: 100%;
     width: 400px;
     height: 800px;
-    background-image: url(../img/bg-price.png);
+    background-image: url(../images/bg-price.png);
     background-repeat: no-repeat;
     padding-top: 200px;
     display: flex;
@@ -165,9 +187,11 @@
       width: 300px;
     }
   }
-  .navegation__button{
-    i {
-      position: absolute;
+
+
+  .hamburguesa-icon{
+      position: relative;
+      right: -115px;
+      top: 10px;
     }
-  }
 }
