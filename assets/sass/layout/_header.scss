@@ -9,8 +9,9 @@ i {
   display: none;
   }
 
-nav {
+nav ul li {
   display: flex;
+
 }
 .navegation {
   text-align: left;
@@ -21,10 +22,7 @@ nav {
   &__logo {
     display: flex;
     justify-content: flex-start;
-    top: 6px;
-    left: 16px;
     padding-top: 25px;
-
     }
 
   &__item {
@@ -46,7 +44,7 @@ nav {
   }
 }
 
-@media (min-width: $viewport-small){
+@media (max-width: $viewport-small){
 
 header {
   padding-top: 20px;

@@ -1,15 +1,20 @@
-@media (min-width: $viewport-large){
+@media (max-width: $viewport-large){
 
   .background-box{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 0%;
-    height: 855px;
+    background-position-x: 100%;
+    height: 857px;
+    background-size: 100%;
+    object-fit: cover;
     background-image: url(../img/bg-hero.png);
     background-repeat: no-repeat;
-
   }
+
   .principal-section {
+    height: 1000px;
+    margin-top: 10%;
+
 
     &__text {
       padding-top: 40px;
@@ -21,76 +26,86 @@
     }
   }
 
+  .navegation {
+
+
+  }
+  .navegation__logo {
+
+    ul {
+      display: inline;
+    }
+  }
+
   .caracteristicas {
     height: 300px;
-    }
 
-  h2 {
+    h2 {
       padding-top: 90px;
     }
 
-    .caracteristicas__grafico {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 60px;
-  }
+    &__grafico {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 60px;
+    }
 
-  .caracteristicas__text {
-    padding-top: 90px;
-    display: flex;
-    flex-wrap: wrap;
+    &__text {
+      padding-top: 90px;
+      display: flex;
+      flex-wrap: wrap;
 
+    }
   }
 
 
   .prices {
+
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 0%;
+    background-position-x: 100%;
+    width: 400px;
     height: 800px;
     background-image: url(../img/bg-price.png);
     background-repeat: no-repeat;
-  }
-  .prices__box{
-    padding-top: 30px;
     padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-  }
-  .prices_text{
-    color: $white;
-    text-align: center;
+    &__title{
+      color: $white;
+    }
 
-  }
-  .container {
-    margin-top: 290px;
-  }
+    &__box{
+      padding-top: 30px;
+      padding-top: 200px;
 
-  .card-subtitle {
-    text-align: left;
-  }
+    }
+    .prices_text{
+      color: $white;
+      text-align: center;
 
-  .card-body {
-    flex: 1 1 auto;
-    padding: 1.25rem;
-  }
-  .card {
+    }
 
+    .box1, .box2 {
 
-    &:hover {
-      box-shadow: 1px 8px 12px #5b5e6a;
-      transition-property: all;
+      &:hover {
+        box-shadow: 0 20px 20px 0 $raising-black;
+        transition-property: all;
+      }
     }
   }
 }
 
-@media (min-width: $viewport-small){
+@media (max-width: $viewport-small){
 
   .background-box {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 142%;
     background-position-x: 100%;
-    width: 390px;
-    height: 377px;
+    height: 760px;
+    object-fit: cover;
     object-fit: cover;
     background-image: url(../img/bg-hero.png);
     background-repeat: no-repeat;
@@ -102,22 +117,22 @@
 
   .caracteristicas {
     height: 800px;
+
     .row {
       display: flex;
     }
-  }
 
-  h2 {
-    padding-top: 90px;
+    h2 {
+      padding-top: 90px;
     }
 
-    .caracteristicas__grafico {
+    &__grafico {
       display: flex;
       flex-wrap: wrap;
       padding-top: 60px;
     }
 
-    .caracteristicas__text {
+    &__text {
       padding-top: 90px;
       display: flex;
       flex-wrap: wrap;
@@ -125,29 +140,26 @@
       h3 {
         font-size: $x-large;
       }
-
     }
+  }
 
-    .prices {
+  .prices {
 
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position-x: 100%;
-      width: 400px;
-      height: 800px;
-      background-image: url(../img/bg-price.png);
-      background-repeat: no-repeat;
-      padding-top: 200px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .box1, .box2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 100%;
+    width: 400px;
+    height: 800px;
+    background-image: url(../img/bg-price.png);
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__box1, &__box2 {
       background-color: $white;
       width: 300px;
     }
-
-
-
-
+  }
 }

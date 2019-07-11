@@ -11,3 +11,20 @@ body {
 hr {
   border: 1px solid $silver;
 }
+/*Efectos*/
+.caracteristicas__grafico {
+animation-name:caracteristicas__grafico;
+animation-duration:1s;
+animation-timing-function:ease-in-out;
+animation-iteration-count:infinite;
+}
+
+/*Keyframes*/
+@keyframes caracteristicas__grafico{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
