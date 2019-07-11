@@ -1,16 +1,15 @@
-/* Containers */
-
-@media (max-width: $viewport-small) {
+/* Container */
+@media (min-width: 768px) {
   .container {
-    width: 360px;
+    width: 750px;
   }
 }
-@media (min-width: $viewport-medium) {
+@media (min-width: 992px) {
   .container {
-    width: 760px;
+    width: 970px;
   }
 }
-@media (min-width: $viewport-large) {
+@media (min-width: 1200px) {
   .container {
     width: 1170px;
   }

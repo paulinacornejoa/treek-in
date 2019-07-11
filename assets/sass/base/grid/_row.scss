@@ -1,8 +1,12 @@
-.container {
-
+/* Row */
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 3rem;
+}
+@media (min-width: 1200px) {
   .row {
-    display: grid;
-    
-    grid-template-columns: repeat($number-columns,1fr) ;
+    grid-column-gap: 4rem;
   }
 }
